@@ -1,4 +1,3 @@
-
 window.model = {
 	inputNumber: 0, //user input text field.
 }
@@ -233,7 +232,7 @@ window.view = {
 	 		else if (this.nextSiblingElement.id === 'workingdayId') 
 				this.codeExecutionWithColourAndId('elseId');
 	 		else if (this.nextSiblingElement.id === 'invalidIPId') {
-				this.codeExecutionWithColour();
+				
 				this.setInnerHtml('outputDayId', 'INVALID INPUT');
 	 		}
 	 	}
